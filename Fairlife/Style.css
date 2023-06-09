@@ -61,6 +61,10 @@
     padding-bottom: 7px;
    
 }
+.nav-right img{
+    width: 28px;
+    height: 30px;
+}
 .btn-search{
     display: inline;
     float: right;
