@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 92px;
+    background-color: #fff;
+}
+.left-nav{
+    height: 100%;
+    width: 500px;
+    padding-top: 60px;
+    padding-left: 20px;
+    float:left;
+}
+.left-nav ul li{
+    list-style: none;
+    display: inline;
+  
+}
+.left-nav ul li a{
+    text-decoration: none;
+    color: #002d73;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17PX;
+    font-weight: 700;
+    margin-left: 20px;
+    padding-bottom: 7px;
+}
+.nav-logo{
+    float: left;
+    margin-top: 23px;
+    margin-left: 27px;
+    
+}
+.nav-logo img{
+    height: 54px;
+    width: 208.54px;
+}
+.nav-right{
+    width: auto;
+    height: 100%;
+    padding-top: 60px;
+    margin-left: 130px;
+    float:left;
+
+}
+.nav-right ul li{
+    display: inline;
+    list-style: none;
+}
+.nav-right ul li a{
+    text-decoration: none;
+    color: #002d73;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17PX;
+    font-weight: 700;
+    margin-left: 20px;
+    padding-bottom: 7px;
+   
+}
+.btn-search{
+    display: inline;
+    float: right;
+    margin-top: 51px;
+    margin-right:57px;
+}
+.left-nav ul li a:hover{
+    border-bottom: 5px solid #002d73;
+   
+}
+.nav-right ul li a:hover{
+    border-bottom: 5px solid #002d73;
+}
+.banner1{
+    width: 100%;
+    height: 614.4px;
+    background-image:url(fairlife-home-022023-03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.banner1-img{
+    width:570px;
+    height: 364px;
+    float: right;
+    margin-top: 90px;
+   margin-right: 60px;
+}
+.banner2{
+    width: 100%;
+    height: 720px;
+    background-image: url(Community-Animal-Care_1920x1080_03.03.23.jpg);
+    background-size: cover;
+}
+.btn-learn{
+    height: 48px;
+    width: auto;
+    color: #fff;
+    background-color: #002d73;
+   font-family: 'Roboto', sans-serif;
+    font-size: 14PX;
+    font-weight: 700;
+    border: none;
+    margin-top: 560px;
+    margin-left: 250px;
+    border-radius: 24px;
+    cursor: pointer;
+    padding: 18px 34px 18px 34px;
+}
+.banner3{
+    height: 667px;
+    width: 100%;
+    background-color: #2f8ccc;
+    background-image: url(cow-v2.png);
+    background-repeat: no-repeat;
+    background-size: 533px auto;
+    background-position: left center;
+}
+.banner3-write{
+    width: 575px;
+    height: auto;
+    padding-top: 180px;
+    margin-left: 610px;
+    text-align: center;
+}
+.banner3-write h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 33px;
+    color: #fff;
+}
+.btn-about{
+    height: 48px;
+    width: auto;
+    color: #fff;
+    background-color: #002d73;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14PX;
+    font-weight: 700;
+    border: none;
+    padding: 18px 34px 18px 34px;
+    border-radius: 24px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.banner4{
+    width: 100%;
+    height:auto;
+}
+.banner4-head h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25PX;
+    font-weight: 700;
+    color: #002d73;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.banner4-head{
+    padding-top: 30px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 130px;
+   
+    
+}
+.p1,.p2,.p3,.p4{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+.p1 img ,.p2 img,.p4 img,.p3 img{
+  
+    height: 300px;
+}
+.products button{
+    width: 180px;
+    height: auto;
+    margin: 20px 20px 20px 20px;
+    color: #fff;
+    background-color: #002d73;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14PX;
+    font-weight: 700;
+    border: none;
+    padding: 10px 5px 10px 5px;
+    border-radius: 25px;
+    
+}
+.btn-view{
+    width: 100%;
+    height: auto;
+    margin: 30px 0 0 0;
+    padding-bottom: 80px;
+    
+}
+.btn-view button{
+    width: auto;
+    height: auto;
+    color: #002d73;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14PX;
+    font-weight: 700;
+    border: 1px solid #002d73;
+    padding: 18px 34px 18px 34px;
+    border-radius: 25px;
+    margin-left: 540px;
+    
+}
+footer{
+    width: 100%;
+    height:560px;
+    background-color: #002d73;
+}
+.footerup{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18PX;
+    font-weight: 700;
+    /* background-color: #002d73; */
+    color: #fff;
+   text-align: center;
+    
+}
+.footerup h1{
+    padding-top: 40px;
+}
+.footerup button{
+    width: auto;
+    height: auto;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14PX;
+    font-weight: 700;
+    border: 1px solid #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    background-color: #002d73;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+.footerup button:hover{
+    background-color: #fff;
+    color: #002d73;
+}
+.social{
+    background-color: #002d73;
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+.social img{
+    width:98px;
+    height: 36px;
+    float: left;
+    margin-left: 50px;
+}
+.list{
+    float: left;
+    margin-left: 20px;
+    margin-top: 17px;
+}
+.list li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+.list li{
+    list-style: none;
+    display: inline;
+    padding-left: 38px; 
+    
+    
+}
+
+.social-icon{
+    float: right;
+    
+}
+.social-icon li{
+    list-style: none;
+    display: inline;
+    margin-right: 42px;
+}
+.social-icon img{
+    width:24px;
+    height: 24px;
+    margin-left: 4.5px;
+    margin-top: 20px;
+}
+.logo img{
+    width: 100px;
+}
+.logo{
+   
+    margin-top: 80px;
+    padding-left: 535px;
+    border-bottom: 0.5px solid #2f8ccc;
+    padding-bottom: 20px;
+}
+
+.logo2{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.company {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 446px;
+    
+}
+.company p{
+    float: left;
+    margin-right: 20px;
+}
+.company ul li{
+    list-style: none;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    padding-right: 5px;
+    cursor:pointer;
+    opacity: 0.5;
+}
+
