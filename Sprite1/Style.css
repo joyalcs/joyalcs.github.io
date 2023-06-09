@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 90px;
+    width: 100%;
+    background-color: #00A74A;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    
+}
+.nav-logo{
+    height:90px;
+    width:180px;
+    float: left;
+}
+.img-nav{
+    width:131.57 px;
+    height: 50px;
+    margin: 20px 0 0 42px;
+    cursor:pointer;
+}
+.nav-item{
+    font-weight: normal;
+    font-size: 14px;
+    font-weight:200;
+    text-decoration: none;
+    font-family: 'Geologica', sans-serif;
+    letter-spacing: -0.3mm;
+    display: inline;
+    margin-left: 42px; 
+    cursor:pointer;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 34px;
+}
+.nav-item a:hover{
+    color: black;
+    border-bottom: 5px solid #000;
+}
+.nav-menu{
+    list-style: none;
+    float: left;
+    margin-left: 23px;
+    padding-top: 35px;
+    height:100%;
+    
+}
+.social{
+    float: left;
+   margin-left: 258px;
+    height: 25px;
+    width: 285.2px;
+    margin-top: 35px;
+}
+.icons{
+    list-style: none;
+    cursor:pointer;
+}
+.social li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.social img{
+    width: 22px;
+    height:22px;
+}
+.user{
+    padding-left: 15px;
+
+}
+.user{
+    width: 22px;
+    height:22px;
+}
+.banner1{
+    width: 100%;
+    height: 530px;
+    background-color: #000;
+}
+.banner1-left{
+    width:627px;
+    height: 530px;
+    float: left;
+}
+.banner1-left img{
+    width: 315.83px;
+    height: 70.38px;
+    margin-left: 53px;
+    margin-top: 80px;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    width: 570px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 53px;
+    font-size: 33px;
+}
+.banner1-right{
+    height: 100%;
+    width: 627px;
+    float: left;
+}
+.banner1-right img{
+    position: absolute;
+    top:0 px;
+    right: 0px;
+    height: 498px;
+}
+.btn{
+    margin-top: 16px;
+    width: 170px;
+    height: 40px;
+    background-color: rgb(255,209,0);
+    text-align: center;
+    margin-left: 53px;
+    color:#000;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    border:none;
+   
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.2s;
+}
+.btn:focus{
+    border: 2px solid #000;
+    outline: 1px solid #fff;
+    border-radius: 3px;
+}
+.banner2{
+    width: 100%;
+    height:450px;
+    background-color: #fff;
+}
+.banner2-left{
+    height: 100%;
+    width:627px;
+}
+.video{
+    width:460.5px;
+    height: 296px;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+.banner2-right{
+    height: 100%;
+    width:627px;
+    float: right;
+    position: absolute;
+    top: 610px;
+    right: 0;
+}
+.inner-right{
+    margin-top: 40px;
+}
+.head{
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: bolder;
+    
+}
+.inner-right-para{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: -0.1mm;
+}
+.msg{
+    height: 32px;
+    width: 50px;
+    background-color:  #00A74A;
+    margin-top: 2px;
+    margin-left: 520px;
+    cursor:pointer;
+    border: none;
+    
+}
+.msg img{
+    width:20px;
+    height:20px;
+    position: absolute;
+    top:970px;
+    left:536px;
+    
+}
+.msg:focus{
+    border:2px solid black;
+}
+.btn-shop{
+    margin-top: 80px;
+    width: 140px;
+    height: 30px;
+    background-color: rgb(255,209,0);
+    text-align: center;
+    color:#000;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    border:none;
+   
+}
+.btn-shop:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.2s;
+}
+.btn-shop:focus{
+    border: 2px solid #000;
+    outline: 1px solid #fff;
+    border-radius: 3px;
+}
+.banner3{
+    width: 100%;
+    height: 438px;
+    background-color: #fff;
+}
+.banner3-left{
+    width: 627px;
+    height:100%;
+    float: left;
+   
+.banner3-left-text{
+    color: #00A74A;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 110px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 75px;
+}
+}
+.banner3-right{
+    width: 627px;
+    height:100%;
+    float: right;
+    margin-top: 0;
+}
+.banner3-right img{
+    width:530px;
+    height:438px;
+}
+.footer{
+    width:100%;
+    height: 500px;
+    background-color: #00A74A;
+}
+.above{
+    height:70%;
+    width:100%;
+}
+.footer-logo{
+    padding-top:103px;
+    padding-left:197px;
+    height: 50px;
+    width:a150px;
+    float: left;
+}
+.footer-logo img{
+    width:123.32 px;
+    height: 46.85px; 
+}
+.footer-social{
+    width:200px;
+    height:200px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 120px;
+ 
+}
+.footer-social p{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Geologica', sans-serif;
+    letter-spacing:-0.3mm;
+    padding-left: 10px;
+}
+.footer-icons li{
+    list-style: none;
+    display: inline;
+    
+}
+.footer-icons{
+    padding-top: 35px;
+    
+}
+.footer-list  ul li{
+    list-style: none;
+    line-height: 30px;
+
+   
+}
+.footer-list a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Geologica', sans-serif;
+    letter-spacing:-0.3mm;
+    
+}
+.footer-list{
+    width:200px;
+    height: 300px;
+    padding-top: 55px;
+    margin-left: 120px;
+    float:left;
+}
+.footer-list ul li a:hover{
+    color: #000;
+}
+.below{
+    height: 30%;
+    width: 100%;
+        margin-bottom: 30px;
+
+}
+.last{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Geologica', sans-serif;
+    margin-left: 180px;
+ 
+}
+.copy{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Geologica', sans-serif;
+    letter-spacing:-0.3mm;
+    margin-left: 480px;
+}
+.last li{
+    list-style: none;
+    display: inline-block;
+    white-space: 10px;
+}
+.last li:hover{
+    color: #000;
+}
