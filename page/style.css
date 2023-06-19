@@ -1,0 +1,463 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+/* header */
+.navbar{
+    width:100%;
+}
+@media  screen and (max-width: 500px){
+    .navbar{
+       height:52px;
+    }
+}
+@media  screen and (max-width:990px) and (min-width: 501px){
+    .navbar{
+        height:66px;
+     }
+}
+@media  screen and (min-width: 991px){
+    .navbar{
+       height:80px;
+    }
+}
+.navbar-brand{
+    height:100%;
+}
+.navbar-brand img{
+    margin-top: 13px;
+}
+@media  screen and (max-width: 420px){
+    .navbar-brand img{
+        width:200px ;
+        height: 15.5px;
+    }
+}
+@media  screen and (min-width: 421px){
+    .navbar-brand img{
+        width:270px ;
+        height: 21px;
+    }
+}
+@media  screen and (max-width: 990px){
+    .navbar-brand {
+       margin: auto;
+    }
+}
+.cont{
+    height: 100%;
+}
+.nav-item{
+    width: auto;
+}
+.nav-item a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #03234b;
+    font-family: 'Helvetica';
+    font-weight: bolder;
+}
+.nav-item a:hover{
+    color: #ed2024;
+}
+.border-end{
+    border-right: 3px solid grey;
+}
+.bar{
+    display: flex;
+}
+@media  screen and (max-width: 1100px) and (min-width: 991px){
+    .bar{
+        justify-content: end;
+    }
+}
+@media  screen and (min-width: 1101px){
+    .bar{
+        justify-content: start;
+    }
+}
+.navbar-nav{
+    width: auto;  
+}
+.btn{
+    display: absolute;
+    top: 5px;
+    left: 5px;
+}
+@media (max-width: 990px){
+    #navbarSupportedContent .navbar-nav > li > a {
+        border: 0;
+        color: #fff;
+        padding: 10px 0 ;
+        border-bottom: solid 3px #fff;
+        background-color: #03234b;
+        
+    }
+    }
+    @media (max-width: 990px){
+        #navbarSupportedContent .navbar-nav   {
+            width: 100%;
+        }
+    }
+    .navbar-toggler {
+        border-color: white;
+        border: 1px solid transparent;
+        border-radius: 5px;
+
+    }
+   
+    
+/* end header */
+/* banner */
+.banner1{
+    background-image: radial-gradient(ellipse at center, #494849 34%,#1d1d1e 100%);
+    width: 100%;
+    height: 540px;
+}
+ @media screen and (max-width: 990px){
+    .banner1,.brands,.speedo-banner{
+        height:480px;
+    }
+    
+} 
+@media screen and (max-width: 768px){
+    .banner1,.brands,.speedo-banner{
+        height:358px;
+    }
+    
+} 
+@media screen and (max-width: 567px){
+    .banner1,.brands,.speedo-banner{
+        height:269px;
+    }
+    
+} 
+@media screen and (max-width:400px){
+    .banner1,.brands,.speedo-banner{
+        height:187px;
+    }
+    
+} 
+.banner-content{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    
+}
+.banner-container img {
+    width: 100%;
+}
+.banner-content-text{
+    margin-top: 10px;
+}
+@media (max-width: 500px){
+.banner-content {
+    font-size: 11px;
+    line-height: 14px;
+    
+}
+}
+@media (max-width: 600px){
+.banner-content-text {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 12px 0 0 0;
+}
+}
+@media (max-width: 990px){
+.banner-content-text {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 20px 0 0 0;
+}
+}
+/* end of banner */
+/* banner2 */
+.brand-text{
+    width:100%;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.brand-text h2 span{
+    color: #ed2024;
+    background-color:white;
+    text-transform: uppercase;
+    min-height: 24px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+/*end of banner2 */
+/* banner3 */
+.brands{
+    height: 480px;
+}
+@media screen and (max-width: 1150px){
+    .jockey-img,.jockey-content{
+        width:50%;
+    }  
+} 
+@media screen and (min-width: 1151px){
+    .jockey-img{
+        width: 60%;
+    }  
+} 
+@media screen and (min-width: 1151px){
+    .jockey-content{
+        width: 40%;   
+    }  
+} 
+@media screen and (max-width: 990px){
+    .jockey-content,.jockey-img{
+        width: 100%;
+    } 
+} 
+.jockey-img{
+    float: right;
+   padding-bottom: 11px;
+   
+}
+.jockey-img img{
+    width: 100%;  
+}
+.jockey-content{
+    float: left;
+}
+.jockey-logo{
+    text-align: center;
+   width: 100%;
+}
+@media  (min-width:1101) {
+    .jockey-text{
+        padding:0;
+        font-size:14px;
+        line-height:24px;
+    }
+}
+
+@media (max-width: 1100px){
+.jockey-text {
+    padding: 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+}
+.brand-btns a{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background: #0d1f35;
+    min-width: 140px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+@media (max-width: 990px){
+.brand-btns {
+    justify-content: center;
+}
+}
+@media (max-width: 990px){
+.brand-btns a {
+    position: relative;
+    padding: 10px;
+    width: 48%;
+    font-size: 14px;
+    margin: 0 1%;
+}
+}
+@media (min-width: 991px){
+    .brand-btns {
+       justify-content: start;
+    }
+    }
+.brand-btns{
+    width: 100%;
+    display: flex;
+}
+@media (min-width:991px){
+.brand-btns a span{
+    display: block;
+}
+}
+@media (max-width:990px){
+    .brand-btns a span{
+        display: inline;
+    }
+    }
+.jockey-social-icons{
+    width: 100%;
+    height: auto;
+}
+.jockey-social-icons ul li a img{
+    width: 38px;
+    height: 38px;
+}
+.jockey-social-icons ul li{
+    list-style: none;
+    display: inline;
+}
+
+
+.speedo-img{
+    float: left;
+    width: 60%;
+}
+.speedo-img img{
+    width: 100%;  
+} 
+/* end of banner3  */
+/* banner4 */
+.speedo-banner{
+    height: 480px;
+}
+.speedo-img{
+    float: left;
+}
+.speedo-img img{
+    width: 100%;  
+} 
+.speedo-content{
+    float: right;
+}
+@media screen and (min-width: 1151px){
+    .speedo-img{
+        width: 60%;
+    }
+    
+} 
+@media screen and (min-width: 1151px){
+    .speedo-content{
+        width: 40%;
+    }
+    
+} 
+@media screen and (max-width: 1150px){
+    .speedo-img,.speedo-content{
+        width:50%;
+    }
+    
+} 
+@media screen and (max-width: 990px){
+    .speedo-content,.speedo-img{
+        width: 100%;
+    }
+    
+} 
+.speedo-logo{
+    text-align: center;
+    width: 100%;
+}
+@media  (min-width:1101) {
+    .speedo-text{
+        font-size:14px;
+        line-height:24px;
+    }
+}
+
+@media (max-width: 1100px){
+.speedo-text {
+    font-size: 13px;
+    line-height: 20px;
+}
+}
+.speedo-btns{
+    width: 100%;
+    display: flex;
+}
+@media (max-width: 990px){
+    .speedo-btns {
+        justify-content: center;
+    }
+}
+@media (min-width: 991px){
+    .speedo-btns {
+       justify-content: start;
+    }
+}
+.speedo-btns a{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background: #ff0000;
+    min-width: 140px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+@media (min-width:991px){
+    .speedo-btns a span{
+        display: block;
+    }
+}
+@media (max-width:990px){
+    .speedo-btns a span{
+        display: inline;
+    }
+}
+.speedo-social-icons{
+    width: 100%;
+    height: auto;
+}
+.speedo-social-icons ul li a img{
+    width: 38px;
+    height: 38px;
+}
+.speedo-social-icons ul li{
+    list-style: none;
+    display: inline;
+}
+
+/*end of  banner4 */
+/* footer */
+.footer{
+    float: left;
+    width: 100%;
+    background: #0d1f35;
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 40px;
+   
+}
+.footer-links {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-links li {
+    list-style: none;
+    float: left;
+    padding-left:  24px;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width: 990px){
+.footer{
+    padding: 0;
+}
+}
+@media (max-width: 990px){
+.footer-links {
+    width: 100%;
+}
+}
+@media (max-width: 990px){
+.footer-links li {
+    width: 100%;
+    padding: 8px;
+    border-bottom: solid 2px #fff;
+}
+}
+/* end of footer */
