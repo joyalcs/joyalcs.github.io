@@ -64,8 +64,21 @@ div{
 .nav-item a:hover{
     color: #ed2024;
 }
+.nav-item a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #ed2024;
+    transition: width .5s;
+}
+
+.nav-item a:hover::after {
+    width: 100%;
+    
+}
 .border-end{
-    border-right: 3px solid grey;
+    border-right: 3px solid #808080;
 }
 .bar{
     display: flex;
@@ -104,7 +117,7 @@ div{
         }
     }
     .navbar-toggler {
-        border-color: white;
+        border-color: #ffffff;
         border: 1px solid transparent;
         border-radius: 5px;
 
@@ -180,7 +193,7 @@ div{
 /* banner2 */
 .brand-text{
     width:100%;
-    background-color: black;
+    background-color: #000000;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -189,7 +202,7 @@ div{
 }
 .brand-text h2 span{
     color: #ed2024;
-    background-color:white;
+    background-color:#ffffff;
     text-transform: uppercase;
     min-height: 24px;
     display: inline-block;
