@@ -366,6 +366,11 @@ div{
     }
     
 } 
+@media screen  and (max-width:300px){ 
+    .speedo-logo img{
+        width: 209px;
+    }
+}
 .speedo-logo{
     text-align: center;
     width: 100%;
